@@ -1,0 +1,6 @@
+<tr>
+    <td>[予定時刻]</td>
+    <td>[タイトル]</td>
+    <td>[サービス]</td>
+    <td><a href="./file-pdf/〇.pdf" download="./file-pdf/〇.pdf">△分</a></td>
+</tr>
