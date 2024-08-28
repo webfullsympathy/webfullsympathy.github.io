@@ -8,7 +8,7 @@
 		<title>ホーム | ウェブ完理</title>
 		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 	</head>
-	<body>
+	<body class="body" onContextmenu="return false;">
 	<header>
                 <a href="https://webfullsympathy.github.io/index.html"><span>Home</span></a>
                 <a href="https://lit.link/webfullsympathy"><span>Link</span></a>
@@ -35,5 +35,81 @@
 	
 	<h3 style="text-align: center;">お知らせ</h3>
 	<h4 style="text-align: center">現在お知らせはありません。<br><a href="/past-notice">過去のお知らせを見る。</a></h4>
-        </body>
+        <br><br><br><br><br><br>
+        <div class="contextmenu">
+                <div onclick="history.back();">戻る</div>
+                <div onclick="history.go();">進む</div>
+                <div onclick="location.reload();">再読み込み</div>
+                <hr>
+                <div onclick="location.href='https://codepen.io/webfullsympathy'">CodePen</div>
+                <div onclick="location.href='https://github.com/webfullsympathy'">GitHub</div>
+                <div onclick="location.href='https://youtube.com/@webfullsympathy'">Youtube</div>
+                <div onclick="location.href='https://x.com/webfullsympathy'">X(旧Twitter)</div>
+                <div onclick="location.href='https://www.instagram.com/webfullsympathy/'">Instagram</div>
+                <div onclick="location.href='https://www.threads.net/@webfullsympathy'">Threads</div>
+                <div onclick="location.href='https://zenn.dev/webfullsympathy'">Zenn(準備中...)</div>
+                <div onclick="location.href='https://qiita.com/webfullsympathy'">Qiita</div>
+                <div onclick="location.href='https://note.com/webfullsympathy'">Note</div>
+                <div onclick="location.href='mailto:webfullsympathy@ymail.ne.jp'">メール</div>
+        </div>
+        <script>
+                const contextmenu = document.querySelector('.contextmenu');
+                const body = document.querySelector('.body');
+                
+                body.addEventListener('contextmenu', (e) => {
+                        contextmenu.style.left = e.pageX + 'px';
+                        contextmenu.style.top = e.pageY - scrollY + 'px';
+                        contextmenu.style.display = 'block';
+                });
+                
+                body.addEventListener('click', () => {
+                        contextmenu.style.display = 'none';
+                });
+        </script>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                }
+
+                .contextmenu {
+                        position: fixed;
+                        z-index: 99;
+                        background: #fff;
+                        color: #555;
+                        font-size: 11px;
+                        user-select: none;
+                        box-shadow: 2px 2px 2px 0 #8f9091;
+                        border: 1px solid #c6c6c6;
+                        padding: 0;
+                        padding-top: 4px;
+                        padding-bottom: 4px;
+                        margin: 0;
+                        outline: 0;
+                        display: none;
+                }
+                
+                .contextmenu div {
+                        box-sizing: border-box;
+                        display: block;
+                        padding: 8px 8px 8px 28px;
+                        width: 250px;
+                        position: relative;
+                        cursor: default;
+                        font-size: 11px;
+                        font-family: sans-serif;
+                }
+
+                .contextmenu div:hover {
+                        background: #ebebeb;
+                }
+                
+                .contextmenu hr {
+                        border: 1px solid #e9e9e9;
+                        border-bottom: 0;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                }
+        </style>
+</body>
 </html>
