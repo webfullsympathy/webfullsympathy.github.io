@@ -3,10 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta content="all">
-		<link rel="stylesheet" href="./style.css">
-		<script src="script.js"></script>
 		<title>ホーム | ウェブ完理</title>
-		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 	</head>
 	<body class="body" onContextmenu="return false;">
 	<header>
@@ -36,22 +33,21 @@
 	<h3 style="text-align: center;">お知らせ</h3>
 	<h4 style="text-align: center">現在お知らせはありません。<br><a href="/past-notice">過去のお知らせを見る。</a></h4>
         <br><br><br><br><br><br>
+        <!-- 以下右クリックメニュー -->>
         <div class="contextmenu">
-                <div onclick="history.back();">戻る</div>
-                <div onclick="history.go();">進む</div>
-                <div onclick="location.reload();">再読み込み</div>
+                <div></div>
+                <div onclick="history.back();">←戻る</div>
+                <div onclick="history.go();">→進む</div>
+                <div onclick="location.reload();">↻再読み込み</div>
                 <hr>
-                <div onclick="location.href='https://codepen.io/webfullsympathy'">CodePen</div>
-                <div onclick="location.href='https://github.com/webfullsympathy'">GitHub</div>
-                <div onclick="location.href='https://youtube.com/@webfullsympathy'">Youtube</div>
-                <div onclick="location.href='https://x.com/webfullsympathy'">X(旧Twitter)</div>
-                <div onclick="location.href='https://www.instagram.com/webfullsympathy/'">Instagram</div>
-                <div onclick="location.href='https://www.threads.net/@webfullsympathy'">Threads</div>
-                <div onclick="location.href='https://zenn.dev/webfullsympathy'">Zenn(準備中...)</div>
-                <div onclick="location.href='https://qiita.com/webfullsympathy'">Qiita</div>
-                <div onclick="location.href='https://note.com/webfullsympathy'">Note</div>
-                <div onclick="location.href='mailto:webfullsympathy@ymail.ne.jp'">メール</div>
-                <div onclick="location.href='https://lit.link/webfullsympathy'">リンク集</div>
+                <div onclick="location.href='https://github.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w240-h480-rw" id="text-in-img">GitHub</div>
+                <div onclick="location.href='https://youtube.com/@webfullsympathy'"><img src="https://play-lh.googleusercontent.com/Qolm5gr9jnabjk-0z79srjYC1XPVExribNz5kbDmGJeEtmRlo0UQoQEIkKMHRyt5paw" id="text-in-img">Youtube</div>
+                <div onclick="location.href='https://x.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/XyI6Hyz9AFg7E_joVzX2zh6CpWm9B2DG2JuEz5meCFVm4-wTKTnHgqbmg62iFKe4Gzca" id="text-in-img">X(旧Twitter)</div>
+                <div onclick="location.href='https://www.instagram.com/webfullsympathy/'"><img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w240-h480-rw" id="text-in-img">Instagram</div>
+                <div onclick="location.href='https://note.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/7bEMlfa3cYoSI_8YmMYHNI3HUUg7IvX0-vJFktOJsczITMTf0dutvTwlWYhyqL4Mcw" id="text-in-img">Note</div>
+                <div onclick="location.href='mailto:webfullsympathy@ymail.ne.jp'"><img src="https://thumb.ac-illust.com/88/88dfda9e919127876273aeffc41d1791_t.jpeg" id="text-in-img">メール</div>
+                <div onclick="location.href='https://lit.link/webfullsympathy'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlK2RfbDc1cvRvXiMXQsPwoQHUiCjcc3xGQw&s" id="text-in-img">リンク集</div>
+                <div></div>
         </div>
         <script>
                 const contextmenu = document.querySelector('.contextmenu');
@@ -68,6 +64,9 @@
                 });
         </script>
         <style>
+                html{
+                        user-select: none;
+                }
                 * {
                         margin: 0;
                         padding: 0;
@@ -88,6 +87,7 @@
                         margin: 0;
                         outline: 0;
                         display: none;
+                        border-radius: 30px;
                 }
                 
                 .contextmenu div {
@@ -111,6 +111,15 @@
                         margin-top: 5px;
                         margin-bottom: 5px;
                 }
+
+                #text-in-img{
+                        width: 5%;
+                        vertical-align: middle;
+                        border-radius: 20px;
+                }
         </style>
+        <link rel="stylesheet" href="./style.css">
+	<script src="script.js"></script>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 </body>
 </html>
