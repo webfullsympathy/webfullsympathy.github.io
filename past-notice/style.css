@@ -18,3 +18,9 @@ span{
     font-size: 40px;
     color: gold;
 }
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

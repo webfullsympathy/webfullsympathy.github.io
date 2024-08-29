@@ -1,114 +1,114 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>動画 | ウェブ完理</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="https://webfullsympathy.github.io/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>動画 | ウェブ完理</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="https://webfullsympathy.github.io/favicon.ico">
 </head>
-<body style="background-color: bisque;">
-    <header>
-        <a href="https://webfullsympathy.github.io/"><span>Home</span></a>
-        <a href="https://lit.link/webfullsympathy"><span>Link</span></a>
-        <a href="https://webfullsympathy.github.io/delay-credentials/"><span>Delay</span></a>
-        <a href="./"><span>Video</span></a>
-        <a href="https://writening.net/page?GeLP53"><span>Schedule</span></a>
-    </header>
-    <br>
-    <h1 style="text-align: center;">ウェブ完理の動画</h1>
-    <h2 style="text-align: center;" id="youtube">Youtube&nbsp;<a href="#youtube">#</a></h2>
-    <h6 style="text-align: center;">プレイヤーの右上から動画を切り替えできます。</h6>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUyW5jzT8wT1nKYF8MM7Qruw" title="ウェブ完理の動画" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display: block;margin: 0 auto;" allowfullscreen></iframe>
-    <h2 style="text-align: center;" id="nicovideo">ニコニコ動画&nbsp;<a href="#nicovideo">#</a></h2>
-    <iframe width="560" height="150" src="https://ext.nicovideo.jp/thumb_user/132520594" scrolling="no" style="border:solid 3px black;display: block;margin: 0 auto;" frameborder="0"></iframe>
-    <br>
-    <h2 style="text-align: center;">遅延証明書&nbsp;<a href="#delay">#</a></h2>
-    <iframe src="https://webfullsympathy.github.io/delay-credentials" frameborder="0" style="display: block;margin: 0 auto;border: 3px solid black;" width="960" height="630" id="delay"></iframe>
-    <!-- 以下右クリックメニュー -->
-    <div class="contextmenu">
-        <div></div>
-        <div onclick="history.back();">←戻る</div>
-        <div onclick="history.go();">→進む</div>
-        <div onclick="location.reload();">↻再読み込み</div>
-        <hr>
-        <div onclick="location.href='https://github.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w240-h480-rw" id="text-in-img">GitHub</div>
-        <div onclick="location.href='https://youtube.com/@webfullsympathy'"><img src="https://play-lh.googleusercontent.com/Qolm5gr9jnabjk-0z79srjYC1XPVExribNz5kbDmGJeEtmRlo0UQoQEIkKMHRyt5paw" id="text-in-img">Youtube</div>
-        <div onclick="location.href='https://x.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/XyI6Hyz9AFg7E_joVzX2zh6CpWm9B2DG2JuEz5meCFVm4-wTKTnHgqbmg62iFKe4Gzca" id="text-in-img">X(旧Twitter)</div>
-        <div onclick="location.href='https://www.instagram.com/webfullsympathy/'"><img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w240-h480-rw" id="text-in-img">Instagram</div>
-        <div onclick="location.href='https://note.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/7bEMlfa3cYoSI_8YmMYHNI3HUUg7IvX0-vJFktOJsczITMTf0dutvTwlWYhyqL4Mcw" id="text-in-img">Note</div>
-        <div onclick="location.href='mailto:webfullsympathy@ymail.ne.jp'"><img src="https://thumb.ac-illust.com/88/88dfda9e919127876273aeffc41d1791_t.jpeg" id="text-in-img">メール</div>
-        <div onclick="location.href='https://lit.link/webfullsympathy'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlK2RfbDc1cvRvXiMXQsPwoQHUiCjcc3xGQw&s" id="text-in-img">リンク集</div>
-        <div></div>
-</div>
-<script>
-        const contextmenu = document.querySelector('.contextmenu');
-        const body = document.querySelector('.body');
-        
-        body.addEventListener('contextmenu', (e) => {
-                contextmenu.style.left = e.pageX + 'px';
-                contextmenu.style.top = e.pageY - scrollY + 'px';
-                contextmenu.style.display = 'block';
-        });
-        
-        body.addEventListener('click', () => {
-                contextmenu.style.display = 'none';
-        });
-</script>
-<style>
-        html{
-                user-select: none;
-        }
-        * {
-                margin: 0;
-                padding: 0;
-        }
+<body style="background-color: bisque;" class="body" onContextmenu="return false;">
+        <header>
+                <a href="https://webfullsympathy.github.io/"><span>Home</span></a>
+                <a href="https://lit.link/webfullsympathy"><span>Link</span></a>
+                <a href="https://webfullsympathy.github.io/delay-credentials/"><span>Delay</span></a>
+                <a href="./"><span>Video</span></a>
+                <a href="https://writening.net/page?GeLP53"><span>Schedule</span></a>
+        </header>
+        <br>
+        <h1 style="text-align: center;">ウェブ完理の動画</h1>
+        <h2 style="text-align: center;" id="youtube">Youtube&nbsp;<a href="#youtube">#</a></h2>
+        <h6 style="text-align: center;">プレイヤーの右上から動画を切り替えできます。</h6>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUyW5jzT8wT1nKYF8MM7Qruw" title="ウェブ完理の動画" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display: block;margin: 0 auto;" allowfullscreen></iframe>
+        <h2 style="text-align: center;" id="nicovideo">ニコニコ動画&nbsp;<a href="#nicovideo">#</a></h2>
+        <iframe width="560" height="150" src="https://ext.nicovideo.jp/thumb_user/132520594" scrolling="no" style="border:solid 3px black;display: block;margin: 0 auto;" frameborder="0"></iframe>
+        <br>
+        <h2 style="text-align: center;">遅延証明書&nbsp;<a href="#delay">#</a></h2>
+        <iframe src="https://webfullsympathy.github.io/delay-credentials" frameborder="0" style="display: block;margin: 0 auto;border: 3px solid black;" width="960" height="630" id="delay"></iframe>
+        <!-- 以下右クリックメニュー -->
+        <div class="contextmenu">
+                <div></div>
+                <div onclick="history.back();">←戻る</div>
+                <div onclick="history.go();">→進む</div>
+                <div onclick="location.reload();">↻再読み込み</div>
+                <hr>
+                <div onclick="location.href='https://github.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w240-h480-rw" id="text-in-img">GitHub</div>
+                <div onclick="location.href='https://youtube.com/@webfullsympathy'"><img src="https://play-lh.googleusercontent.com/Qolm5gr9jnabjk-0z79srjYC1XPVExribNz5kbDmGJeEtmRlo0UQoQEIkKMHRyt5paw" id="text-in-img">Youtube</div>
+                <div onclick="location.href='https://x.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/XyI6Hyz9AFg7E_joVzX2zh6CpWm9B2DG2JuEz5meCFVm4-wTKTnHgqbmg62iFKe4Gzca" id="text-in-img">X(旧Twitter)</div>
+                <div onclick="location.href='https://www.instagram.com/webfullsympathy/'"><img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w240-h480-rw" id="text-in-img">Instagram</div>
+                <div onclick="location.href='https://note.com/webfullsympathy'"><img src="https://play-lh.googleusercontent.com/7bEMlfa3cYoSI_8YmMYHNI3HUUg7IvX0-vJFktOJsczITMTf0dutvTwlWYhyqL4Mcw" id="text-in-img">Note</div>
+                <div onclick="location.href='mailto:webfullsympathy@ymail.ne.jp'"><img src="https://thumb.ac-illust.com/88/88dfda9e919127876273aeffc41d1791_t.jpeg" id="text-in-img">メール</div>
+                <div onclick="location.href='https://lit.link/webfullsympathy'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlK2RfbDc1cvRvXiMXQsPwoQHUiCjcc3xGQw&s" id="text-in-img">リンク集</div>
+                <div></div>
+        </div>
+        <script>
+                const contextmenu = document.querySelector('.contextmenu');
+                const body = document.querySelector('.body');
+                
+                body.addEventListener('contextmenu', (e) => {
+                        contextmenu.style.left = e.pageX + 'px';
+                        contextmenu.style.top = e.pageY - scrollY + 'px';
+                        contextmenu.style.display = 'block';
+                });
+                
+                body.addEventListener('click', () => {
+                        contextmenu.style.display = 'none';
+                });
+        </script>
+        <style>
+                html{
+                        user-select: none;
+                }
+                * {
+                        margin: 0;
+                        padding: 0;
+                }
 
-        .contextmenu {
-                position: fixed;
-                z-index: 99;
-                background: #fff;
-                color: #555;
-                font-size: 11px;
-                user-select: none;
-                box-shadow: 2px 2px 2px 0 #8f9091;
-                border: 1px solid #c6c6c6;
-                padding: 0;
-                padding-top: 4px;
-                padding-bottom: 4px;
-                margin: 0;
-                outline: 0;
-                display: none;
-                border-radius: 30px;
-        }
-        
-        .contextmenu div {
-                box-sizing: border-box;
-                display: block;
-                padding: 8px 8px 8px 28px;
-                width: 250px;
-                position: relative;
-                cursor: default;
-                font-size: 11px;
-                font-family: sans-serif;
-        }
+                .contextmenu {
+                        position: fixed;
+                        z-index: 99;
+                        background: #fff;
+                        color: #555;
+                        font-size: 11px;
+                        user-select: none;
+                        box-shadow: 2px 2px 2px 0 #8f9091;
+                        border: 1px solid #c6c6c6;
+                        padding: 0;
+                        padding-top: 4px;
+                        padding-bottom: 4px;
+                        margin: 0;
+                        outline: 0;
+                        display: none;
+                        border-radius: 30px;
+                }
+                
+                .contextmenu div {
+                        box-sizing: border-box;
+                        display: block;
+                        padding: 8px 8px 8px 28px;
+                        width: 250px;
+                        position: relative;
+                        cursor: default;
+                        font-size: 11px;
+                        font-family: sans-serif;
+                }
 
-        .contextmenu div:hover {
-                background: #ebebeb;
-        }
-        
-        .contextmenu hr {
-                border: 1px solid #e9e9e9;
-                border-bottom: 0;
-                margin-top: 5px;
-                margin-bottom: 5px;
-        }
+                .contextmenu div:hover {
+                        background: #ebebeb;
+                }
+                
+                .contextmenu hr {
+                        border: 1px solid #e9e9e9;
+                        border-bottom: 0;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                }
 
-        #text-in-img{
-                width: 5%;
-                vertical-align: middle;
-                border-radius: 20px;
-        }
-</style>
+                #text-in-img{
+                        width: 5%;
+                        vertical-align: middle;
+                        border-radius: 20px;
+                }
+        </style>
 </body>
 </html>
