@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/webfullsympathy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://webfullsympathy.github.io
+  * I am webfullsympathy (https://keybase.io/webfullsympathy) on keybase.
+  * I have a public key with fingerprint 431E 0B11 6BF0 C5AD BA4F  6C59 84A1 D287 B86B DE7F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018fadd0a45e527ba69334c9d8bb2a81138f07b45cc85bfe0bdff7876991b142750a",
+      "fingerprint": "431e0b116bf0c5adba4f6c5984a1d287b86bde7f",
+      "host": "keybase.io",
+      "key_id": "84a1d287b86bde7f",
+      "kid": "01018fadd0a45e527ba69334c9d8bb2a81138f07b45cc85bfe0bdff7876991b142750a",
+      "uid": "c381ed60ab66def1767bdac228758919",
+      "username": "webfullsympathy"
+    },
+    "service": {
+      "hostname": "webfullsympathy.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1726785079,
+  "expire_in": 157680000,
+  "prev": "5680303eea2c3aab3608bdb583170b1319e56c48b5f64c76033760122f6b435c",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIuAnicrVJbSFRBGF4vZRnbhW5kVu6BHsJVzpzLzDlrL4FGRoJdlgqKZeacObuH
+9Jx196wXREF7SaNAq4eIzJSKsiyiEqOboQ9l2VIWFfVSUCqiUEQhJM0xe/OxeZjh
+n/m+7//+f/5+b5onM8ULz5VWkqMZKYN9XQmPMX4R1XLE1mu4QC13iM4ctEyncSd0
+yNS5AMcDHigG1nUeSzKVBUQwVEVR0lRdIUTACgCiYvCISLKmKTIxKE90w0AKgqoK
+CJAEJPOY83OGaYVpLBozLYfJSiJgQAAgMXhNxjrBkgE1WVUkDHRBQUSBRKfIYMSI
+HXcZzBzBcZpv2uyOBaEZe3Pg/7PvxIycJiqA6pDHBEKdGgBBRHSsCSy1rKhAdYFx
+GrNwOWXoKkqMRFlZvKY8ip1IDVfn59hjpalRt79uQXMD88OmE0mQvzVGY7Zja3YZ
+g0UcJxoPuDJOTXSWF5pVDBHT0llvGaOSxuKmbXEBwJCaY7opABIgUmQeqX6OVkfN
+GA2ZLkJGUOHZcvPQSiYps1jkRUqxoIkYExHyCtGJrIgAsZ8SgUplqEkKkQ0oaQjy
+osg2IAgGJJIoa5xbY4VlcwGJ2cRhJhk3wxZ2EjHK1T1+dCDdk5LpmT8v1Z05T+bC
+pf8msf/eAk/n9s68ovx1rfu3PZy8oXp3tf16MPR5fCcaGQXFBZc29o4G0540d306
+fCOvoXni5LbCNTt6VjW8nqcOFUurI2vxBevLC19B6jMzp6upfunJZPl0z82Jl4um
+F9/v+bkwI5AsCeqJb7+rfAN9xy52CwfPmx13SuHw5RWhkuETWe+LfrTUyRtW3h9t
+upq+aaqu+Pi129+vtZ42T7VMVaT0FgT3+rPbT6V+3FSPG3O3HNj65l3usuubq648
+L837ktO+b/3PM2MdWb1Fwe4jGSvOjvX53371Nj71vfrgXz4ytKD2zC1fVnW7pze5
+59KV5JIXAw2Dd6ejkz4CA8PZbS1SpHt3YQ6f9gf27UYS
+=kRmo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/webfullsympathy
+
+==================================================================
